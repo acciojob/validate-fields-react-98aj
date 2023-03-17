@@ -31,7 +31,7 @@ const handleSubmit = (e)=>{
             <form onSubmit={handleSubmit}>
             <label>Username: </label><input type='email' value={email} onChange={userNm}/><br/>
             <label>Password: </label><input type='password' value={password} onChange={pass}/><br/>
-            {error === true ? (<p>Both username and password is required</p>) : (null)}
+            {error === true ? (<p calassName=''error>Both username and password is required</p>) : (null)}
             <button type='submit'>Login</button>
             
             </form>
